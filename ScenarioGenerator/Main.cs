@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace NewMod
+namespace ScenarioGenerator
 {
     public class Main : IMod
     {
@@ -21,12 +21,12 @@ namespace NewMod
 
         public string Name
         {
-            get { return "Terrain"; }
+            get { return "Scenario Generator"; }
         }
 
         public string Description
         {
-            get { return "t"; }
+            get { return "Genarates Scenarios. Press F8 to open menu."; }
         }
 
         #endregion

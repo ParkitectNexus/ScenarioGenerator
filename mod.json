@@ -1,7 +1,7 @@
 {
     "BaseDir": "",
-    "EntryPoint": "NewMod.Main",
+    "EntryPoint": "ScenarioGenerator.Main",
     "IsDevelopment": true,
     "Name": "Scenario Generator",
-    "Project": "NewMod.csproj"
+    "Project": "ScenarioGenerator.csproj"
 }

@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace NewMod
+namespace ScenarioGenerator
 {
     public class TerrainGeneratorController : MonoBehaviour
     {
@@ -226,9 +226,9 @@ namespace NewMod
 
                 var y = patch.getHeighestHeight();
                 if (y != patch.getLowestHeight()) continue;
-
+                
                 TreeEntity fir = null;
-                foreach (var o in ScriptableSingleton<AssetManager>.Instance.decoObjects)
+                foreach (var o in ScriptableSingleton<AssetManager>.Instance.getDecoObjects())
                     if (o.getName().StartsWith("Fir") && o is TreeEntity) fir = o as TreeEntity;
 
                 if (fir != null)
