@@ -1,5 +1,5 @@
 {
-    "BaseDir": "",
+    "BaseDir": "ScenarioGenerator",
     "EntryPoint": "ScenarioGenerator.Main",
     "IsDevelopment": true,
     "Name": "Scenario Generator",
