@@ -29,6 +29,8 @@ namespace ScenarioGenerator
             get { return "Genarates Scenarios. Press F8 to open menu."; }
         }
 
+        public string Identifier { get; set; }
+
         #endregion
     }
 }
