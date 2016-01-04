@@ -1,7 +1,1 @@
-{
-    "BaseDir": "ScenarioGenerator",
-    "EntryPoint": "ScenarioGenerator.Main",
-    "IsDevelopment": true,
-    "Name": "Scenario Generator",
-    "Project": "ScenarioGenerator.csproj"
-}
+{"BaseDir":"ScenarioGenerator","CompilerVersion":"v3.5","CodeFiles":[],"IsDevelopment":true,"IsEnabled":true,"Name":"Scenario Generator","Project":"ScenarioGenerator.csproj","Tag":null,"ReferencedAssemblies":[],"Repository":null}

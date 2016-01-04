@@ -6,12 +6,13 @@ namespace ScenarioGenerator
     {
         private GameObject _go;
 
-        #region Implementation of IMod
+		#region Implementation of IMod
+
 
         public void onEnabled()
         {
             _go = new GameObject(Name);
-            _go.AddComponent<TerrainGeneratorController>();
+			_go.AddComponent<ConfigWindow>();
         }
 
         public void onDisabled()
