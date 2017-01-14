@@ -155,7 +155,7 @@ namespace ScenarioGenerator
 				var patch = park.getTerrain(x, z);
 				if (patch == null || patch.hasWater()) continue;
 
-				var y = patch.getHeighestHeight();
+				var y = patch.getHighestHeight();
 				if (y != patch.getLowestHeight()) continue;
 
 				TreeEntity fir = null;

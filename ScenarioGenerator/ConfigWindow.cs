@@ -78,7 +78,7 @@ namespace ScenarioGenerator
 			GUI.Label(UIRectangle(index++), "Terrain scale: " + _valuestore.TerrainScale);
 			_valuestore.TerrainScale = GUI.HorizontalSlider(UIRectangle(index++), _valuestore.TerrainScale, 0.2f, 5.0f);
 
-			GUI.Label(UIRectangle(index++), "Trees: " + _valuestore.TerrainScale);
+			GUI.Label(UIRectangle(index++), "Trees: " + _valuestore.TreeCount);
 			_valuestore.TreeCount =  GUI.HorizontalSlider(UIRectangle(index++), _valuestore.TreeCount, 0, 1000);
 
 
